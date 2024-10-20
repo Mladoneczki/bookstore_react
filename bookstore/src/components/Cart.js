@@ -7,7 +7,7 @@ export default function Cart(props) {
   const listLenght=props.list.length
   let hideClass=""
     if ( listLenght === 0) {
-        return <p>A kosár üres.</p>; 
+        return <p>Your cart is empty 🛒 </p>
       }
     if(listLenght>=15){
       hideClass="hide"
@@ -19,6 +19,7 @@ export default function Cart(props) {
       {props.list.map((book, i) => {
         return <CartItem className={hideClass} book={book} index={i} key={i} del={del}/>
       })}
+      <h3>Total:  {props.sum}$</h3>
     </>
   );
 }

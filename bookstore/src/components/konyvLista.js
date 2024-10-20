@@ -1,10 +1,10 @@
-const  konyvLista = [
+const konyvLista = [
     {
         title: "Ballad of Hate and Hope",
         author: "Kaylea Prime",
         genre: "Fantasy",
         image: "/kepek/16.jpg",
-        price: "12.99 USD",
+        price: 12.99,
         blurb: "An epic tale of conflict, emotions, and the balance between hatred and hope."
     },
     {
@@ -12,7 +12,7 @@ const  konyvLista = [
         author: "Sophia LeRoux",
         genre: "Fantasy",
         image: "/kepek/9.jpg",
-        price: "10.99 USD",
+        price: 10.99,
         blurb: "A magical journey where fae rise from destruction, seeking to reclaim their destiny."
     },
     {
@@ -20,7 +20,7 @@ const  konyvLista = [
         author: "Thea Guanzon",
         genre: "Fantasy",
         image: "/kepek/24.jpg",
-        price: "15.99 USD",
+        price: 15.99,
         blurb: "In the midst of catastrophic storms, battles rage for survival and dominance."
     },
     {
@@ -28,7 +28,7 @@ const  konyvLista = [
         author: "J. Elle",
         genre: "Fantasy",
         image: "/kepek/18.jpg",
-        price: "14.99 USD",
+        price: 14.99,
         blurb: "A tale of love, intrigue, and magic set in a dangerous world of elites."
     },
     {
@@ -36,7 +36,7 @@ const  konyvLista = [
         author: "Samuel R. Delany",
         genre: "Dark Fantasy",
         image: "/kepek/11.jpg",
-        price: "11.99 USD",
+        price: 11.99,
         blurb: "A dark journey of self-discovery where shadows hold more than secrets."
     },
     {
@@ -44,7 +44,7 @@ const  konyvLista = [
         author: "Danielle L. Jensen",
         genre: "Fantasy",
         image: "/kepek/10.jpg",
-        price: "9.99 USD",
+        price: 9.99,
         blurb: "A story of rebellion, power struggles, and the fight for an empire’s soul."
     },
     {
@@ -52,7 +52,7 @@ const  konyvLista = [
         author: "Jeni Conrad",
         genre: "Fantasy",
         image: "/kepek/12.jpg",
-        price: "10.49 USD",
+        price: 10.49,
         blurb: "A crossover where Peter Pan meets Alice in an imaginative blend of worlds."
     },
     {
@@ -60,7 +60,7 @@ const  konyvLista = [
         author: "Hannah Kaner",
         genre: "Fantasy",
         image: "/kepek/13.jpg",
-        price: "13.99 USD",
+        price: 13.99,
         blurb: "A gripping tale of mortals who dare to defy the gods in a battle for survival."
     },
     {
@@ -68,7 +68,7 @@ const  konyvLista = [
         author: "E.E. Knight",
         genre: "Fantasy",
         image: "/kepek/22.jpg",
-        price: "12.49 USD",
+        price: 12.49,
         blurb: "A young dragon rider embarks on an adventurous journey to prove herself."
     },
     {
@@ -76,7 +76,7 @@ const  konyvLista = [
         author: "Nicola Tallis",
         genre: "Fantasy",
         image: "/kepek/26.jpg",
-        price: "10.99 USD",
+        price: "10.99 $",
         blurb: "A story of a lost heir who must reclaim her throne against all odds."
     },
     {
@@ -84,7 +84,7 @@ const  konyvLista = [
         author: "Sophia LeRoux",
         genre: "Fantasy",
         image: "/kepek/21.jpg",
-        price: "8.99 USD",
+        price: 8.99,
         blurb: "In a world where fae and humans collide, hidden powers are about to emerge."
     },
     {
@@ -92,7 +92,7 @@ const  konyvLista = [
         author: "Charlotte Brontë",
         genre: "Classic, Gothic Romance",
         image: "/kepek/19.jpg",
-        price: "7.99 USD",
+        price: 7.99,
         blurb: "An orphaned governess's journey of self-respect, love, and independence."
     },
     {
@@ -100,7 +100,7 @@ const  konyvLista = [
         author: "William Shakespeare",
         genre: "Classic, Tragedy",
         image: "/kepek/23.jpg",
-        price: "5.99 USD",
+        price: 5.99,
         blurb: "The haunting tragedy of ambition and power that spirals into madness."
     },
     {
@@ -108,7 +108,7 @@ const  konyvLista = [
         author: "Alexandre Dumas",
         genre: "Classic, Adventure",
         image: "/kepek/20.jpg",
-        price: "9.99 USD",
+        price: 9.99,
         blurb: "A timeless tale of betrayal and vengeance in 19th-century France."
     },
     {
@@ -116,7 +116,7 @@ const  konyvLista = [
         author: "Franz Kafka",
         genre: "Classic, Absurdism",
         image: "/kepek/25.jpg",
-        price: "6.99 USD",
+        price: 6.99,
         blurb: "A man wakes up to find himself transformed into a monstrous insect."
     },
     {
@@ -124,7 +124,7 @@ const  konyvLista = [
         author: "F. Scott Fitzgerald",
         genre: "Classic, Tragedy",
         image: "/kepek/14.jpg",
-        price: "8.49 USD",
+        price: 8.49,
         blurb: "A tragic love story set in the glitz and glam of the roaring 1920s."
     },
     {
@@ -132,7 +132,7 @@ const  konyvLista = [
         author: "William Shakespeare",
         genre: "Classic, Tragedy",
         image: "/kepek/4.jpg",
-        price: "5.99 USD",
+        price: 5.99,
         blurb: "The story of a prince torn between vengeance and his moral conscience."
     },
     {
@@ -140,7 +140,7 @@ const  konyvLista = [
         author: "Charles Dickens",
         genre: "Classic, Coming of Age",
         image: "/kepek/15.jpg",
-        price: "7.49 USD",
+        price: 7.49,
         blurb: "The story of an orphan, Pip, and his journey through life and ambition."
     },
     {
@@ -148,7 +148,7 @@ const  konyvLista = [
         author: "Emily Elgar",
         genre: "Thriller",
         image: "/kepek/5.jpg",
-        price: "11.99 USD",
+        price: 11.99,
         blurb: "A suspenseful thriller filled with secrets that unravel dangerous truths."
     },
     {
@@ -156,7 +156,7 @@ const  konyvLista = [
         author: "J.D. Barker",
         genre: "Thriller",
         image: "/kepek/27.jpg",
-        price: "13.49 USD",
+        price: 13.49,
         blurb: "A radio show host gets pulled into a deadly game with a relentless caller."
     },
     {
@@ -164,7 +164,7 @@ const  konyvLista = [
         author: "J. T. Turner",
         genre: "Thriller",
         image: "/kepek/7.jpg",
-        price: "10.99 USD",
+        price: 10.99,
         blurb: "A chilling thriller about a serial killer who believes they are saving souls."
     },
     {
@@ -172,7 +172,7 @@ const  konyvLista = [
         author: "D.M. Pulley",
         genre: "Horror",
         image: "/kepek/17.jpg",
-        price: "12.99 USD",
+        price: 12.99,
         blurb: "A family moves into a haunted house with a history of unspeakable horrors."
     },
     {
@@ -180,7 +180,7 @@ const  konyvLista = [
         author: "Jean-Christophe Grangé",
         genre: "Crime, Thriller",
         image: "/kepek/3.jpg",
-        price: "10.49 USD",
+        price: 10.49,
         blurb: "Two detectives uncover a chilling conspiracy in a remote French village."
     },
     {
@@ -188,7 +188,7 @@ const  konyvLista = [
         author: "Ken Adams",
         genre: "Crime, Mystery",
         image: "/kepek/6.jpg",
-        price: "8.99 USD",
+        price: 8.99,
         blurb: "A collection of gripping detective tales filled with mystery and suspense."
     },
     {
@@ -196,7 +196,7 @@ const  konyvLista = [
         author: "Holly Jackson",
         genre: "YA, Mystery",
         image: "/kepek/2.jpg",
-        price: "9.99 USD",
+        price: 9.99,
         blurb: "A high schooler investigates a cold case in this gripping YA mystery."
     },
     {
@@ -204,7 +204,7 @@ const  konyvLista = [
         author: "Helen Phifer",
         genre: "Crime, Thriller",
         image: "/kepek/8.jpg",
-        price: "10.49 USD",
+        price: 10.49,
         blurb: "A gripping thriller about a woman discovering her father's dark legacy."
     },
     {
@@ -212,7 +212,7 @@ const  konyvLista = [
         author: "Arthur Conan Doyle",
         genre: "Classic, Mystery",
         image: "/kepek/1.jpg",
-        price: "6.49 USD",
+        price: 6.49,
         blurb: "The brilliant detective solves the most baffling mysteries in London."
     }
 ];

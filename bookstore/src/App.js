@@ -9,19 +9,35 @@ import Cart from './components/Cart.js';
 function App() {
   const bookList = konyvLista; 
   const [buyList, setList] = useState([]);
-  
+
   function click(adat) {
       console.log("app", adat);
       const cl = [...buyList]; 
       cl.push(bookList[adat]);
       setList(cl);
+     
   }
   function del(data){
     const clonL=[...buyList]
     clonL.splice(data,1)
     setList(clonL)
+  
     
 }
+
+function sumPrice() {
+  let sumPrice = 0;
+  buyList.forEach((elem) => {
+    sumPrice += elem.price;
+  });
+  return sumPrice.toFixed(2);
+}
+
+
+
+
+
+
   
   return (
     <div className="App">
@@ -32,8 +48,8 @@ function App() {
         <div className='products'>
           <Products list={bookList} click={click}/>
         </div>
-        <div className='cart'>
-          <Cart list={buyList} del={del}/>
+        <div className={`cart`}>
+          <Cart list={buyList} sum={sumPrice()} del={del}/>
         </div>
 
       </article>

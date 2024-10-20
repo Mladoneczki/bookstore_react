@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #126782;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -46,7 +46,7 @@ article {
 
 .products{
   display: grid;
-  grid-template-columns: repeat(4, 210px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 

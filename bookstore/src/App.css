@@ -23,6 +23,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+article {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+}
+
+.products {
+  padding: 10px;
+}
+
+.cart {
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
 
 .App-link {
   color: #61dafb;

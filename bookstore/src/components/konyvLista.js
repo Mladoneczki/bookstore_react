@@ -3,7 +3,7 @@ const konyvLista = [
         title: "Ballad of Hate and Hope",
         author: "Kaylea Prime",
         genre: "Fantasy",
-        image: "/kepek/16.jpg",
+        image: "kepek/16.jpg",
         price: 12.99,
         blurb: "An epic tale of conflict, emotions, and the balance between hatred and hope."
     },
@@ -11,7 +11,7 @@ const konyvLista = [
         title: "Fae from the Ashes",
         author: "Sophia LeRoux",
         genre: "Fantasy",
-        image: "/kepek/9.jpg",
+        image: "kepek/9.jpg",
         price: 10.99,
         blurb: "A magical journey where fae rise from destruction, seeking to reclaim their destiny."
     },

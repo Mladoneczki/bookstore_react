@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Products from './components/Products.js';
+import konyvLista from './components/konyvLista.js';
+
 function App() {
+  const bookList=konyvLista;
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h2>Pages & Co.</h2>
       </header>
+      <article>
+        <div className='products'>
+          <Products list={bookList}/>
+        </div>
+
+      </article>
     </div>
   );
 }

@@ -16,6 +16,12 @@ function App() {
       cl.push(bookList[adat]);
       setList(cl);
   }
+  function del(data){
+    const clonL=[...buyList]
+    clonL.splice(data,1)
+    setList(clonL)
+    
+}
   
   return (
     <div className="App">
@@ -27,7 +33,7 @@ function App() {
           <Products list={bookList} click={click}/>
         </div>
         <div className='cart'>
-          <Cart list={buyList}/>
+          <Cart list={buyList} del={del}/>
         </div>
 
       </article>

@@ -1,27 +1,28 @@
-.cart {
+.cartItem {
     align-items: center;
     border: 1px solid #ccc;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
     background-color: #f9f9f9;
+    display: flex;
 }
 
-.cart img {
+.cartItem img {
     width: 50px;
     height: auto;
     margin-right: 10px;
 }
 
-.cart h3 {
+.cartItem h3 {
     margin: 0;
 }
 
-.cart p {
+.cartItem p {
     margin: 0 10px;
 }
 
-.cart button {
+.cartItem button {
     padding: 5px 10px;
     border: none;
     background-color: #ff4d4d;
@@ -30,6 +31,10 @@
     cursor: pointer;
 }
 
-.cart button:hover {
+.cartItem button:hover {
     background-color: #ff1a1a;
+}
+
+.hide img{
+    display: none;
 }
